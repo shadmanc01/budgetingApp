@@ -11,17 +11,17 @@ const Intro = () => {
     <div className="intro">
       <div>
         <h1>
-          Take Control of <span className="accent">Your Money</span>
+          Let's start saving <span className="accent">Some Money</span>
         </h1>
         <p>
-          Personal budgeting is the secret to financial freedom. Start your journey today.
+          Work towards your financial goals with the help of the tracker buddy
         </p>
         <Form method="post">
           <input
             type="text"
             name="userName"
             required
-            placeholder="What is your name?" aria-label="Your Name" autoComplete="given-name"
+            placeholder="What's your name?" aria-label="Your Name" autoComplete="given-name"
           />
           <input type="hidden" name="_action" value="newUser" />
           <button type="submit" className="btn btn--dark">
